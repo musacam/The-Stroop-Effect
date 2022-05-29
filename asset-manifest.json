@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/The-Stroop-Effect/static/css/main.7738dfe1.css",
+    "main.js": "/The-Stroop-Effect/static/js/main.7e4e6600.js",
+    "static/js/787.d4d5ffe3.chunk.js": "/The-Stroop-Effect/static/js/787.d4d5ffe3.chunk.js",
+    "index.html": "/The-Stroop-Effect/index.html",
+    "main.7738dfe1.css.map": "/The-Stroop-Effect/static/css/main.7738dfe1.css.map",
+    "main.7e4e6600.js.map": "/The-Stroop-Effect/static/js/main.7e4e6600.js.map",
+    "787.d4d5ffe3.chunk.js.map": "/The-Stroop-Effect/static/js/787.d4d5ffe3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7738dfe1.css",
+    "static/js/main.7e4e6600.js"
+  ]
+}
