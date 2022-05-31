@@ -21,24 +21,40 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col justify-evenly items-center w-screen h-screen bg-black">
+    <div className="flex flex-col justify-evenly items-center w-screen h-screen bg-zinc-500">
       <div className="absolute top-10 left-10 text-2xl font-bold">
         Points: {points}
       </div>
-      <div id="stroop" className="text-2xl font-bold">
+      <div id="stroop" className="text-4xl font-bold">
         {randomColor.text}
       </div>
-      <div className="grid grid-cols-2 justify-evenly items-center w-1/2 h-1/2 gap-x-48">
-        <Button colorScheme="whiteAlpha" onClick={chosenColor}>
+      <div className="grid grid-cols-2 justify-evenly items-center w-1/3 h-1/2 gap-x-12">
+        <Button
+          colorScheme="blackAlpha"
+          style={{ fontSize: "150%" }}
+          onClick={chosenColor}
+        >
           {randomColor.optionOne}
         </Button>
-        <Button colorScheme="whiteAlpha" onClick={chosenColor}>
+        <Button
+          colorScheme="blackAlpha"
+          style={{ fontSize: "150%" }}
+          onClick={chosenColor}
+        >
           {randomColor.optionTwo}
         </Button>
-        <Button colorScheme="whiteAlpha" onClick={chosenColor}>
+        <Button
+          colorScheme="blackAlpha"
+          style={{ fontSize: "150%" }}
+          onClick={chosenColor}
+        >
           {randomColor.optionThree}
         </Button>
-        <Button colorScheme="whiteAlpha" onClick={chosenColor}>
+        <Button
+          colorScheme="blackAlpha"
+          style={{ fontSize: "150%" }}
+          onClick={chosenColor}
+        >
           {randomColor.optionFour}
         </Button>
       </div>
